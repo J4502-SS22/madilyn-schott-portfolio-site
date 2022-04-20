@@ -14,13 +14,13 @@ body {
 }
 
 #title {
-  color: #FFFFFF;
+  color: green;
   font-size: 32px;
 }
 
 #content {
   display: block;
-  width: 90%;
+  width: 100%;
   max-width: 1000px;
   margin: 0px;
 }
@@ -71,7 +71,7 @@ section {
 }
 
 nav {
-  background: #0052BD;
+  background: white;
 }
 
 nav ul {
