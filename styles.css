@@ -49,22 +49,6 @@ body {
   display: flex;
 }
 
-#map {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding: 25px;
-  display: flex;
-}
-
-#calendar {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding: 25px;
-  display: flex;
-}
-
 section {
   margin: 4rem auto;
   display: block;
