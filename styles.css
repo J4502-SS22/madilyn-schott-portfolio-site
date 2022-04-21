@@ -17,7 +17,7 @@ body {
   color: #FFFFFF;
   font-size: 75px;
   font-family: 'Brush Script MT', cursive;
-  align: center
+  justify-content: center;
 }
 
 #content {
