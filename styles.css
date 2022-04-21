@@ -1,7 +1,7 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Times New Roman', serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Zilla Slab', serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -14,7 +14,7 @@ body {
 }
 
 #title {
-  color: green;
+  color: #FFFFFF;
   font-size: 32px;
 }
 
@@ -29,24 +29,42 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding: 10px;
   display: flex;
+  justify-content: center;
 }
 
 .listing {
-  margin-left: 12.5em;
-  margin-right: 12.5em;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  padding: 0px;
   display: flex;
+  justify-content: center;
 }
 
 .detail-head {
-  margin-left: 16.5em;
-  margin-right: 16.5em;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  padding: 0px;
   display: flex;
+  justify-content: center;
+}
+
+#map {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+#calendar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 section {
@@ -55,11 +73,12 @@ section {
 }
 
 nav {
-  background: white;
+  background: #0052BD;
 }
 
 nav ul {
-  display:flex;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   list-style-type: none;
   margin: 0;
@@ -83,6 +102,7 @@ nav li {
 a {
   color: #335E75;
   font-weight: bold;
+  display: inline-block;
 }
 
 nav a {
@@ -118,12 +138,12 @@ nav a:focus {
 
 p {
   font-size: 1em;
-  display: block;
+  display: flex;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 20em;
-  margin-inline-end: 20em;
-  display: flex;
+  margin-inline-start: 5em;
+  margin-inline-end: 5em;
+  justify-content: flex-start;
 }
 
 footer {
@@ -136,6 +156,29 @@ footer {
   box-sizing: border-box;
 }
 
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.skip-link:focus {
+  width: unset;
+  height: unset;
+  position: relative;
+  margin: unset;
+  padding: unset;
+}
+
+@media (min-width: 655px) {
+  nav ul {
+    flex-direction: row;
+  }
   nav li {
     height: 100%;
     width: 33.333333%;
@@ -144,3 +187,26 @@ footer {
     border-top: unset;
     border-bottom: unset;
   }
+}
+
+@media (min-width: 1102px) {
+    #title {
+      padding-right: 250px;
+      padding-top: 25px;
+      float: right;
+    }
+    #logo {
+      margin: 0px;
+      padding: 25px;
+    }
+  }
+
+  @media (max-width: 1101px) {
+      #logo {
+        margin-top: 25px;
+        margin-left: 25px;
+      }
+      #title {
+        margin-left: 25px;
+    }
+}
