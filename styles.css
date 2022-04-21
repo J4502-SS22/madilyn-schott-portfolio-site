@@ -13,10 +13,15 @@ body {
   align: left;
 }
 
+@font-face {
+  front-family: VeganStyle;
+  src: url(https://www.fontspace.com/vegan-style-font-f29878);
+}
+
 #title {
   color: #FFFFFF;
   font-size: 32px;
-}
+  font-family: VeganStyle;
 
 #content {
   display: block;
@@ -149,7 +154,7 @@ p {
 footer {
   background: #45B39D;
   color: #ffffff;
-  text-align:center;
+  text-align: center;
   margin-top: 1rem;
   padding: 1rem;
   width: 100%;
