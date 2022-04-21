@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Times New Roman', serif;
+  font-family: 'VeganFont', serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -200,4 +200,9 @@ footer {
       #title {
         margin-left: 25px;
     }
+}
+
+@font-face {
+  font-family: VeganFont;
+  src: url(https://www.fontspace.com/vegan-style-font-f29878);
 }
