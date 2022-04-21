@@ -14,7 +14,6 @@ body {
 #title {
   color: #FFFFFF;
   font-size: 32px;
-  front-family: VeganStyle;
 }
 #content {
   display: block;
@@ -68,21 +67,42 @@ section {
 }
 
 nav {
-  background: green;
   background: #45B39D;
 }
-
 nav ul {
-@@ -88,7 +106,7 @@ a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+}
+nav li {
+  width: 100%;
+  height: 33.333333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+a {
+  color: #335E75;
+  font-weight: bold;
+  display: inline-block;
 }
 
 nav a {
-    color: green;
-    color: #FFFFFF;
-    text-decoration: none;
+  text-decoration: none;
     padding: 1rem;
     width: 100%;
-@@ -97,6 +115,27 @@ nav a {
+    height: 100%;
+    display: block;
     box-sizing: border-box;
 }
 
@@ -110,12 +130,14 @@ nav a:focus {
 p {
   font-size: 1em;
   display: flex;
-@@ -108,11 +147,66 @@ p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 5em;
+  margin-inline-end: 5em;
+  justify-content: flex-start;
 }
 
 footer {
-  background: #0052BD;
-  color: green;
   background: #45B39D;
   color: #ffffff;
   text-align:center;
@@ -178,9 +200,4 @@ footer {
       #title {
         margin-left: 25px;
     }
-}
-
-@font-face {
-  front-family: VeganStyle;
-  src: url(https://www.fontspace.com/vegan-style-font-f29878);
 }
