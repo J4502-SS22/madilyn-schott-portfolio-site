@@ -8,9 +8,9 @@ body {
 }
 
 #logo {
-  max-height: 200px;
+  max-height: 500px;
   max-width: 200px;
-  align: left;
+  justify-content: right;
 }
 
 #title {
