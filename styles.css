@@ -140,7 +140,6 @@ nav a:focus {
 
 p {
   font-size: 1em;
-  display: flex;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 5em;
