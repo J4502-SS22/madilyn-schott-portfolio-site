@@ -10,7 +10,46 @@ body {
 #logo {
   max-height: 500px;
   max-width: 200px;
-  display: flex;
+  align-content: center;
+}
+
+#headshot{
+  max-height: 500px;
+  max-width: 200px;
+  }
+
+#guardhomeimage{
+  max-height: 300px;
+  max-width: 400px;
+  float: left;
+  justify-content: space-around;
+}
+
+#horseimage{
+  max-height: 300px;
+  max-width: 400px;
+  float: left;
+  justify-content: space-around;
+}
+#jimage{
+  max-height: 300px;
+  max-width: 400px;
+  float: right;
+  justify-content: space-around;
+}
+
+#vo {
+  max-height: 300px;
+  max-width: 400px;
+  float: right;
+  justify-content: space-around;
+}
+
+#woofs {
+  max-height: 300px;
+  max-width: 400px;
+  float: right;
+  justify-content: space-around;
 }
 
 #title {
@@ -28,6 +67,7 @@ body {
   margin: 0px auto;
 }
 
+
 .page-title {
   margin-left: auto;
   margin-right: auto;
@@ -39,8 +79,6 @@ body {
 .listing {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  display: flex;
   justify-content: center;
 }
 
@@ -71,8 +109,16 @@ body {
 }
 
 section {
-  margin: 4rem auto;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 3rem;
   display: block;
+}
+
+h3{
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 nav {
