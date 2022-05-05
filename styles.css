@@ -16,39 +16,41 @@ body {
 #headshot{
   max-height: 500px;
   max-width: 200px;
+  float: center;
+  justify-content: space-around;
   }
 
 #guardhomeimage{
   max-height: 300px;
   max-width: 400px;
-  float: left;
+  float: center;
   justify-content: space-around;
 }
 
 #horseimage{
   max-height: 300px;
   max-width: 400px;
-  float: left;
+  float: center;
   justify-content: space-around;
 }
 #jimage{
   max-height: 300px;
   max-width: 400px;
-  float: right;
+  float: center;
   justify-content: space-around;
 }
 
 #vo {
   max-height: 300px;
   max-width: 400px;
-  float: right;
+  float: center;
   justify-content: space-around;
 }
 
 #woofs {
-  max-height: 300px;
-  max-width: 400px;
-  float: right;
+  max-height: auto;
+  max-width: auto;
+  float: center;
   justify-content: space-around;
 }
 
@@ -90,6 +92,12 @@ body {
   justify-content: center;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 #map {
   margin-left: auto;
   margin-right: auto;
@@ -116,9 +124,21 @@ section {
   display: block;
 }
 
+h1{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+}
+
+h2{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+}
 h3{
   margin-left: 5rem;
   margin-right: 5rem;
+  text-align: center;
 }
 
 nav {
@@ -196,6 +216,7 @@ p {
   margin-inline-start: 5em;
   margin-inline-end: 5em;
   justify-content: flex-start;
+  text-align: center;
 }
 
 footer {
