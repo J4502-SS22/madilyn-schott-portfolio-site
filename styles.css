@@ -168,9 +168,14 @@ nav a:focus {
   color: #0052BD;
 }
 
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 .active {
   color: #0052BD;
-  background: #0D3E5E;
+  background: #96ffe0;
 }
 
 .projects ul {
