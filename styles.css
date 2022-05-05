@@ -213,8 +213,8 @@ p {
   font-size: 1em;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 5em;
-  margin-inline-end: 5em;
+  margin-inline-start: 2em;
+  margin-inline-end: 2em;
   justify-content: flex-start;
   text-align: center;
 }
