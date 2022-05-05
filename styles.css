@@ -8,15 +8,15 @@ body {
 }
 
 #logo {
-  max-height: 500px;
-  max-width: 200px;
-  align-content: center;
+  max-width: 300px;
+  float: left;
+  justify-content: space-around;
 }
 
 #headshot{
   max-height: 500px;
   max-width: 200px;
-  float: center;
+  float: right;
   justify-content: space-around;
   }
 
@@ -48,8 +48,8 @@ body {
 }
 
 #woofs {
-  max-height: auto;
-  max-width: auto;
+  max-height: 500px;
+  max-width: 500px;
   float: center;
   justify-content: space-around;
 }
@@ -68,7 +68,6 @@ body {
   max-width: 1000px;
   margin: 0px auto;
 }
-
 
 .page-title {
   margin-left: auto;
@@ -117,10 +116,8 @@ body {
 }
 
 section {
-  margin-top: 3rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   display: block;
 }
 
