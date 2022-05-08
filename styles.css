@@ -9,8 +9,8 @@ body {
 
 #logo {
   max-width: 300px;
-  float: left;
-  justify-content: space-around;
+  width: 90%;
+  margin: auto;
 }
 
 #headshot{
@@ -20,39 +20,6 @@ body {
   justify-content: space-around;
   }
 
-#guardhomeimage{
-  max-height: 300px;
-  max-width: 400px;
-  float: center;
-  justify-content: space-around;
-}
-
-#horseimage{
-  max-height: 300px;
-  max-width: 400px;
-  float: center;
-  justify-content: space-around;
-}
-#jimage{
-  max-height: 300px;
-  max-width: 400px;
-  float: center;
-  justify-content: space-around;
-}
-
-#vo {
-  max-height: 300px;
-  max-width: 400px;
-  float: center;
-  justify-content: space-around;
-}
-
-#woofs {
-  max-height: 500px;
-  max-width: 500px;
-  float: center;
-  justify-content: space-around;
-}
 
 .imageclass {
   max-width: 300px;
@@ -276,20 +243,6 @@ footer {
 }
 
 
-@media (min-width: 655px) {
-  nav ul {
-    flex-direction: row;
-  }
-  nav li {
-    height: 100%;
-    width: 33.333333%;
-    border-left: 1px solid #FFF;
-    border-right: 1px solid #FFF;
-    border-top: unset;
-    border-bottom: unset;
-  }
-}
-
 
 /*Everything for the Slideshow gallery is coded below this comment*/
 
@@ -368,4 +321,44 @@ footer {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+
+.cool-class-name-here {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 700px;
+}
+.cool-class-name-here p, .cool-class-name-here img {
+width: 100%;
+margin: 1rem;
+box-sizing: border-box;
+}
+@media (min-width: 500px) {
+.cool-class-name-here {
+    flex-direction: row;
+    gap: 1rem;
+}
+.cool-class-name-here img {
+    width: 200px;
+}
+.cool-class-name-here p {
+     width: calc(100% - 220px);
+}
+}
+
+
+@media (min-width: 655px) {
+  nav ul {
+    flex-direction: row;
+  }
+  nav li {
+    height: 100%;
+    width: 33.333333%;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-top: unset;
+    border-bottom: unset;
+  }
 }
