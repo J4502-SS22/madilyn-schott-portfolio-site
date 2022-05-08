@@ -54,6 +54,21 @@ body {
   justify-content: space-around;
 }
 
+.imageclass {
+  max-width: 300px;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.listclass {
+  display: block;
+  margin: 1rem auto;
+  max-width: 200px;
+  width: 90%;
+  text-align: left;
+}
+
 #title {
   color: #FFFFFF;
   font-size: 75px;
@@ -97,6 +112,7 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
 #map {
   margin-left: auto;
   margin-right: auto;
@@ -115,9 +131,25 @@ body {
   justify-content: center;
 }
 
+#resume {
+  width: 90%;
+  max-width: 700px;
+  height: 700px;
+  margin: 1rem auto;
+  display: block;
+}
+
+.article-pdf {
+  width: 90%;
+    height: 500px;
+    max-width: 400px;
+    margin-top: 1rem;
+}
+
 section {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin: 5rem auto;
+  width: 90%;
+  max-width: 600px;
   display: block;
   align: center;
 }
