@@ -324,26 +324,26 @@ footer {
 }
 
 
-.cool-class-name-here {
+.boxes {
     display: flex;
     flex-direction: column;
     width: 90%;
     max-width: 700px;
 }
-.cool-class-name-here p, .cool-class-name-here img {
+.boxes p, .boxes img {
 width: 100%;
 margin: 1rem;
 box-sizing: border-box;
 }
 @media (min-width: 500px) {
-.cool-class-name-here {
+.boxes {
     flex-direction: row;
     gap: 1rem;
 }
-.cool-class-name-here img {
+.boxes img {
     width: 200px;
 }
-.cool-class-name-here p {
+.boxes p {
      width: calc(100% - 220px);
 }
 }
