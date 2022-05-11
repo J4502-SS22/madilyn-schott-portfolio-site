@@ -95,14 +95,6 @@ body {
     margin-top: 1rem;
 }
 
-section {
-  margin: 5rem auto;
-  width: 90%;
-  max-width: 600px;
-  display: block;
-  align: center;
-}
-
 h1{
   margin-left: 5rem;
   margin-right: 5rem;
@@ -119,6 +111,14 @@ h3{
   margin-left: 5rem;
   margin-right: 5rem;
   text-align: center;
+}
+
+section {
+  margin: 5rem auto;
+  width: 90%;
+  max-width: 600px;
+  display: block;
+  align: center;
 }
 
 nav {
@@ -325,7 +325,7 @@ box-sizing: border-box;
     width: 200px;
 }
 .boxes p {
-     width: calc(100% - 220px);
+     width: 90%;
 }
 }
 
