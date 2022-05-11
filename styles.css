@@ -8,10 +8,11 @@ body {
 }
 
 #logo {
-  max-width: 300px;
-  width: 90%;
-  display: block;
-  margin: auto;
+    max-width: 300px;
+    width: 300px;
+    display: block;
+    margin: 1rem;
+    height: auto;
 }
 
 .imageclass {
@@ -108,9 +109,8 @@ h2{
 }
 
 h3{
-  margin-left: 5rem;
-  margin-right: 5rem;
   text-align: center;
+  font-size: 2rem;
 }
 
 section {
@@ -119,6 +119,13 @@ section {
   max-width: 600px;
   display: block;
   align: center;
+}
+
+section h1 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+    font-size: 2rem !important;
 }
 
 nav {
@@ -203,6 +210,8 @@ footer {
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .skip-link {
@@ -316,8 +325,20 @@ footer {
 width: 100%;
 margin: 1rem;
 box-sizing: border-box;
+height: auto;
 }
+
 @media (min-width: 500px) {
+
+footer {
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer div {
+  text-align: left;
+}
+
 .boxes {
     flex-direction: row;
 }
