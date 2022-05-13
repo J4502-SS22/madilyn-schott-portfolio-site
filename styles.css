@@ -5,11 +5,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 #logo {
     max-width: 300px;
-    width: 300px;
+    width: 200px;
     display: block;
     margin: 1rem;
     height: auto;
@@ -34,9 +36,10 @@ body {
 }
 
 .editimage {
-  width: 600px;
-  margin: 5rem auto;
-  display: block;
+  max-width: 600px;
+    margin: 5rem auto;
+    display: block;
+    width: 90%;
 }
 
 
@@ -91,7 +94,6 @@ body {
   margin-right: auto;
   width: 50%;
 }
-
 
 #resume {
   width: 90%;
@@ -244,6 +246,7 @@ footer {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .skip-link {
@@ -352,6 +355,7 @@ footer {
     flex-direction: column;
     width: 90%;
     max-width: 700px;
+    align-items: center;
 }
 .boxes p, .boxes img {
 width: 100%;
@@ -360,11 +364,16 @@ box-sizing: border-box;
 height: auto;
 }
 
+
+
+
+
 @media (min-width: 500px) {
 
 footer {
   flex-direction: row;
   justify-content: center;
+  align-items: flex-start;
 }
 
 footer div {
@@ -373,6 +382,7 @@ footer div {
 
 .boxes {
     flex-direction: row;
+    align-items: flex-start;
 }
 .boxes img {
     width: 200px;
