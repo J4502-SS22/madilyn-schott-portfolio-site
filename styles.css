@@ -33,6 +33,13 @@ body {
   margin: 2rem auto;
 }
 
+.editimage {
+  width: 600px;
+  margin: 5rem auto;
+  display: block;
+}
+
+
 .listclass {
   display: block;
   margin: 1rem auto;
@@ -98,12 +105,19 @@ body {
   width: 90%;
     height: 500px;
     max-width: 400px;
-    margin-top: 1rem;
+    margin: 3rem auto;
+    display: block;
+}
+
+hr {
+  display: block;
+  margin: 2rem 15rem;
+  border-style: inset;
+  border-width: 1px;
 }
 
 h1{
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin: 3rem auto;
   text-align: center;
 }
 
@@ -111,17 +125,26 @@ h2{
   margin-left: 5rem;
   margin-right: 5rem;
   text-align: center;
+  font-size: 2.5rem;
+  color: #188E97;
 }
 
 h3{
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+h4 {
+  text-decoration: underline overline;
+  margin: 3rem auto;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 section {
   margin: 5rem auto;
   width: 90%;
-  max-width: 600px;
+  max-width: 700px;
   display: block;
   align: center;
 }
@@ -165,7 +188,7 @@ nav li {
 a {
   font-weight: bold;
   display: inline-block;
-  color: #037F70;
+  color: #181d97;
 }
 
 nav a {
@@ -199,7 +222,7 @@ nav a:hover {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.15em;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 2em;
